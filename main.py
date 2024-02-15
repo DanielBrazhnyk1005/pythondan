@@ -29,3 +29,17 @@ if Option == 2:
 if Option == 3:
     print(average)
 
+# task 2
+
+meters = int(input("Enter length in meters : "))
+miles = meters * 0.000621
+yards = meters * 1.093613
+inches = meters * 39.36
+print("Pick the option")
+pick = int(input("Please choose the system : #1 miles; #2 yards; #3 inches "))
+if pick == 1:
+    print(miles)
+if pick == 2:
+    print(yards)
+if pick == 3:
+    print(inches)
